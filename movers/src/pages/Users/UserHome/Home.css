@@ -1,0 +1,12 @@
+/* styles.css */
+#blue-input {
+    background-color: blue; /* Set the background color to blue */
+    color: white; /* Set text color to white or any contrasting color */
+    border: 1px solid blue; /* Set border color to blue */
+  }
+  
+  /* Optionally, you can style the input when it's focused (clicked) */
+  #blue-input:focus {
+    background-color: lightblue; /* Change background color on focus */
+  }
+  

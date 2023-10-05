@@ -1,0 +1,21 @@
+
+.card:first-child {
+    margin-left: 15px; 
+  }
+  .card:last-child {
+    margin-right: 15px; 
+  }
+
+/* Define the responsive-icon class to adjust the font size */
+.responsive-icon {
+    font-size: 2.5rem; 
+    color: rgb(75, 75, 225);
+  }
+  
+  /* Use Bootstrap's responsive utility classes to change the font size at different breakpoints */
+  @media (max-width: 768px) {
+    .responsive-icon {
+      font-size: 1.5rem; /* Adjust the font size for smaller screens */
+    }
+  }
+  
