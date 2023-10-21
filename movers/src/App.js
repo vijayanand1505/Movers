@@ -9,7 +9,7 @@ function App() {
   const [isLoggedIn, setIsLoggedIn] = useState(
     localStorage.getItem("isLoggedIn") === "true"
   );
- 
+
   // Function to handle user login
   const handleLogin = () => {
     // You can implement your login logic here
